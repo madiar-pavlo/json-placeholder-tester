@@ -1,0 +1,32 @@
+.post-page{
+
+	display: flex;
+	flex-direction: column;
+	row-gap: 200px;
+	margin-top: 100px;
+
+
+	&__main{
+	padding-inline: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 100px;
+	align-items: center;
+	}
+	&__title{
+		text-transform: uppercase;
+		text-align: center;
+		&>h1{
+			font-weight: 400;
+			font-size: 55px;
+		}
+	}
+	&__description{
+		width: 830px;
+		text-align: justify;
+		text-align-last: justify;
+		&>p{
+			letter-spacing: 4.2px;
+		}
+	}
+}

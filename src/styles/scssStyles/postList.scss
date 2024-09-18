@@ -1,0 +1,12 @@
+.PostList{
+
+	&__content{
+		display: flex;
+		flex-direction: column;
+		row-gap: 31px;
+	}
+	&__inner{
+		display: flex;
+		flex-direction: row;
+	}
+}

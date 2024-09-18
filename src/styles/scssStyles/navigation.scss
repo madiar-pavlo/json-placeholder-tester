@@ -1,0 +1,33 @@
+.navigation{
+	display: flex;
+  height: 80px;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+	
+	&__list{
+		display: flex;
+		column-gap: 32px;
+		list-style: none;
+		align-items: center;
+		width: 100%;
+		justify-content: center;
+	}
+	&__item{
+		margin-inline: 25px;
+		&--logout{
+			margin-left: auto;
+		}
+	}
+	&__link{
+		text-decoration: none;
+		color: white;
+		border: 1px solid #8E6CEF;
+		padding: 8px;
+		transition-duration: 1s;
+		&:hover{
+			background-color: #8E6CEF;
+  		border-radius: 2px;
+		}
+	}
+}

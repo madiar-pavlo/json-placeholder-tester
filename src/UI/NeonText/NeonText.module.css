@@ -1,0 +1,30 @@
+.neonText{
+
+}
+.sign-wrap-2 {
+	text-align: start;
+	padding: 60px 20px;
+}
+.sign-wrap-2 .sign_word {
+	font-size: 40px;
+	font-weight: 200;
+	line-height: 50px;
+	color: #FFF;
+	font-family: "Montserrat", sans-serif;
+	animation: 2s neon-2 alternate-reverse infinite;
+}
+@keyframes neon-2 {
+	from {
+			text-shadow: 0 0 5px #FFF,
+			0 0 10px #8E6CEF,
+			0 0 15px #8E6CEF,
+			0 0 20px #BFE2FF;
+	}
+	to {
+			text-shadow: 0 0 20px #BFE2FF,
+			0 0 35px #8E6CEF,
+			0 0 40px #8E6CEF,
+			0 0 50px #8E6CEF,
+			0 0 800px #8E6CEF;
+	}
+}    
